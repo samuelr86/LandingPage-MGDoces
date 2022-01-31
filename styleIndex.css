@@ -23,7 +23,7 @@ body{
 
 .cabeçalho-imagem{
 
-    height: 80px;
+    height:100px;
 }
 
 .cabeçalho-menu{
@@ -59,13 +59,16 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 50px;
 
 }
 
 .conteudo-principal-escrito{
-    display: flex;
+    display: inline-block;
+    vertical-align: top;
     flex-direction: column;
     gap: 30px;
+    text-align: center;
 
 }
 
@@ -94,7 +97,7 @@ body{
 
 }
 .conteudo-principal-escrito-botao{
-    align-items: center;
+    
     background-color: rgb(236, 214, 236);
     width: 170px;
     height: 50px;
@@ -104,14 +107,15 @@ body{
     font-family: 'Times', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    
     color: rgb(47, 35, 37);
+    
 
 }
 
 .conteudo-principal-imagem{
-    display: flex;
-    height: 500px;
+    width: 60%;
+	padding: 20px;
+
 }
 
 .rodape{

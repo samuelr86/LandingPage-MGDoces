@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playball&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(35deg,rgb(133, 228, 220),rgb(255,255,255));
+    
+}
+.cabeçalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color:rgb(212, 250, 247);
+}
+
+.cabeçalho-imagem{
+
+    height: 80px;
+}
+
+.cabeçalho-menu{
+
+    display: flex;
+    gap: 60px;
+}
+
+.cabeçalho-menu-item:hover{
+    background-color: aqua;
+    border-radius: 15px;
+    
+}
+.cabeçalho-menu-item{
+
+    font-family: 'Playball', Times, sans-serif;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 23px;
+
+}
+
+.conteudo{
+
+    margin-top: 48px;
+    border-top: 0.5px solid blueviolet;
+    
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Playball', serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(79, 24, 131);
+    text-decoration: underline;
+
+}
+
+.conteudo-principal-escrito-historia {
+    font-family: 'Playball', serif;
+    font-weight: 300;
+    font-size: 22px;
+    align-items: center;
+    color: #4f1883;
+    padding: 50px;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: aqua;
+
+}
+.conteudo-principal-escrito-botao{
+    align-items: center;
+    background-color: rgb(236, 214, 236);
+    width: 170px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Times', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: rgb(47, 35, 37);
+
+}
+
+.conteudo-principal-imagem{
+    display: flex;
+    height: 500px;
+}
+
+.rodape{
+    text-align: center;
+    border-top: 0.5px solid rgb(79, 24, 131);
+    padding: 35px;
+    margin: 0 auto;
+    display: block;
+}
